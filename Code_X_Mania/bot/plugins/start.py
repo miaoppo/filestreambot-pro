@@ -35,12 +35,12 @@ async def follow_user(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am @pyauto",
+                    text="I am @google",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer💻", url=f"https://t.me/pyauto")
+                                InlineKeyboardButton("Developer💻", url=f"https://t.me/google")
                             ]
                         ]
                     ),
@@ -106,7 +106,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='http://t.me/pyauto'>CLICK HERE FOR SUPPORT </a></b>",
+                    text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='http://t.me/google'>CLICK HERE FOR SUPPORT </a></b>",
                     parse_mode="HTML",
                     disable_web_page_preview=True)
                 return
@@ -128,7 +128,7 @@ Send me any file and get a direct download link and streamable link.!""",
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="**Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ. Qᴜɪᴄᴋʟʏ ᴄᴏɴᴛᴀᴄᴛ** @pyauto",
+                        text="**Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ. Qᴜɪᴄᴋʟʏ ᴄᴏɴᴛᴀᴄᴛ** @google",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -155,7 +155,7 @@ Send me any file and get a direct download link and streamable link.!""",
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ** @pyauto",
+                    text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ** @google",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
@@ -253,7 +253,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ @pyauto.",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ @google.",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -264,7 +264,7 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/pyauto")],
+                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/google")],
                 [InlineKeyboardButton("💥 FOLLOW", url="https://t.me/Cinema21SubIndo")]
             ]
         )
